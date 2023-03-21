@@ -12,7 +12,7 @@ a{
     color: #000;
     text-decoration: NONE;
 }
-ul{
+.nav ul{
     list-style: none;
     display: flex;
     align-items: center;
@@ -144,7 +144,7 @@ nav{
     position: absolute;
     display: block;
     bottom: 200px;
-    left: 250px;
+    left: 500px;
 }
 .chart{
     background: #e8e8e8;
@@ -165,6 +165,9 @@ nav{
     display: flex;
 }
 .f_l h2{
+    float: left;
+}
+.f_l h2 a{
     padding: 0 20px;
     font-weight: bold;
     color: #444;
@@ -174,8 +177,116 @@ nav{
     border-right: 1px solid #999;
     padding-left: 0;
 }
+.swiper-button-prev,.swiper-button-next{
+    background: #fff;
+    color: #666 !important;
+    border-radius: 50%;
+    padding: 15px 15px;
+    opacity: 0.8;
+    width: 35px;
+    height: 35px !important;
+}
+.swiper-button-prev::after,.swiper-button-next::after{
+    font-size: 1.1rem !important;
+}
 .content_top button{
     width: 90px;
     border-radius: 25px;
     border: 1px solid #e1e1e1;
+}
+.img_wrap{
+    width: 170px;
+    height: 234px;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.text_wrap{
+    text-align: center;
+}
+.text_wrap h4{
+    padding: 7px 0;
+    width: 170px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.text_wrap p{
+    font-weight: bold;
+    color: #666;
+    font-size: 13px;
+    display: flex;
+    padding: 0 30px;
+}
+.text_wrap p span{
+    padding-right: 15px;
+}
+.event{
+    background: #fff;
+}
+.evt_wrap{
+    width: 310px;
+    height: 207px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.text_wrap2{
+    width: 310px;
+}
+.text_wrap2 h4{
+    padding: 7px 0;
+}
+.text_wrap2 p{
+    font-weight: bold;
+    color: #666;
+    font-size: 13px;
+}
+.theater{
+    background: #fff;
+}
+.c_left{
+    width: 500px;
+    height: 270px;
+}
+.cinema{
+    display: flex;    
+}
+.c_right ul{
+    list-style: none;
+}
+.c_right li{
+    width: 450px;
+}
+.c_right li a:first-child{
+    border-top: 1px solid #d3d3d3;
+}
+.c_right li a{
+    border-radius: 10px;
+    border-bottom: 1px solid #d3d3d3;
+    display: flex;
+    justify-content: space-between;
+    padding: 19px 25px;
+    align-items: center;
+}
+.c_right li a:hover{
+    border: 1px solid #000;
+}
+.c_right li a{
+    font-weight: bold;
+    font-size: 18px;
+    color: #333;
+}
+.c_right li a span{
+    color: #666;
+    font-size: 14px;
+}
+.else {
+    
+    background: #fff;
+}
+.else > div > div{
+    width: 270px;
+    padding: 20px 19px 30px;
+    border: 1px solid #d3d3d3;
+    border-radius: 10px;
 }
